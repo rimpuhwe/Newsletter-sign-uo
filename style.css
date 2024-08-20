@@ -59,13 +59,9 @@ button:hover{
     padding:10px;
 }
 .user-part{
-    border:1px solid black;
+    height:80%;
     margin:1rem auto;
     padding:17px;
-    
-}
-.img-part{
-    border:1px solid black;
     
 }
 .head{
@@ -79,6 +75,7 @@ input{
     border-radius:5px;
     margin-top:0.5rem;
     text-align:center;
+    cursor: pointer;
 }
 label{
     font-weight:700;
@@ -90,7 +87,6 @@ fieldset{
 img{
     width:13rem;
     height:22.4rem;
-    border:2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
