@@ -3,6 +3,7 @@ const messageBoard = document.getElementById('message');
 const userEmail = document.querySelector("input[type='email']");
 const subscribeBtn = document.getElementById('subscription-btn');
 const bolder = document.getElementById('bolder');
+const exitBtn =document.getElementById('dismisal-btn');
 
 function work(){
     if(userEmail.value === ''){
@@ -25,4 +26,9 @@ function work(){
     }
     
 }
+function exit(){
+    messageBoard.classList.add('hidden');
+    setupBoard.style.display = 'block';
+}
 subscribeBtn.addEventListener('click', work);
+exitBtn.addEventListener('click', exit);
